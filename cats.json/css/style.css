@@ -1,0 +1,40 @@
+.cat {
+    border: 1px solid #ffff;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+img{
+    height: auto;
+    width: 30%;
+
+   
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cat {
+    width: 400px; /* Just an example width, adjust as needed */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cat img {
+    max-width: 100%;
+    height: auto;
+}
+
+#catContainer{
+    display: flex;
+    flex: column;
+    justify-content: center;
+}
